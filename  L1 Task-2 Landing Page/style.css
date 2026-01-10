@@ -1,0 +1,260 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    background: #111;
+    color: white;
+}
+
+/* NAVBAR */
+header{
+    background: #333;
+    padding: 15px 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo h2{
+    font-size: 24px;
+}
+
+.logo p{
+    font-size: 12px;
+    color: #ccc;
+}
+
+nav ul{
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+nav ul li a{
+    color: white;
+    text-decoration: none;
+    font-size: 13px;
+}
+
+nav ul li a:hover{
+    color: #00aaff;
+}
+
+/* HERO SECTION */
+.hero{
+    display: flex;
+    justify-content: space-between;
+    padding: 60px 50px;
+    background: #3c3c3c;
+}
+
+.hero-content{
+    width: 50%;
+}
+
+.hero-content h1{
+    font-size: 35px;
+    margin-bottom: 15px;
+}
+
+.hero-content p{
+    width: 80%;
+    margin-bottom: 25px;
+    line-height: 1.5;
+}
+
+.hire-btn{
+    padding: 12px 25px;
+    border: none;
+    background: #0088ff;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+/* HERO IMAGE */
+.hero-img img{
+    width: 350px;
+}
+
+/* ABOUT SECTION */
+.about{
+    display: flex;
+    justify-content: space-between;
+    background: white;
+    color: black;
+    padding: 60px 50px;
+}
+
+.about-img img{
+    width: 300px;
+}
+
+.about-text{
+    width: 60%;
+}
+
+.about-text h2{
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+.about-text p{
+    font-size: 15px;
+    margin-bottom: 20px;
+}
+
+.resume-btn{
+    padding: 12px 25px;
+    border: none;
+    background: #0088ff;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+}
+/* CONTACT SECTION */
+.contact {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 80px 10%;
+    gap: 50px;
+}
+
+.contact-img img {
+    width: 350px;
+    border-radius: 15px;
+}
+
+.contact-text h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+.contact-text p {
+    font-size: 16px;
+    line-height: 1.6;
+    margin-bottom: 15px;
+}
+
+.contact-details p {
+    margin-bottom: 8px;
+}
+
+.contact-btn {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 12px 25px;
+    background: #dce2ea;
+    color: #be7df3;
+    text-decoration: none;
+    border-radius: 25px;
+    font-weight: 500;
+}
+
+.contact-btn:hover {
+    background: #cfd8e1;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .contact {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .contact-img img {
+        width: 250px;
+    }
+}
+
+/* SERVICES SECTION */
+.services {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 80px 10%;
+    gap: 50px;
+}
+
+.services-img img {
+    width: 350px;
+    border-radius: 15px;
+}
+
+.services-text h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+.services-text p {
+    font-size: 16px;
+    line-height: 1.6;
+    margin-bottom: 15px;
+}
+
+.services-list p {
+    margin-bottom: 10px;
+    font-weight: 500;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .services {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .services-img img {
+        width: 250px;
+    }
+}
+
+
+/* SKILLS SECTION */
+.skills {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 80px 10%;
+    gap: 50px;
+}
+
+.skills-img img {
+    width: 350px;
+    border-radius: 15px;
+}
+
+.skills-text h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+.skills-text p {
+    font-size: 16px;
+    line-height: 1.6;
+    margin-bottom: 15px;
+}
+
+.skills-list p {
+    margin-bottom: 10px;
+    font-weight: 500;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .skills {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .skills-img img {
+        width: 250px;
+    }
+}
+
+
